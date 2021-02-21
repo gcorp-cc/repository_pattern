@@ -6,7 +6,7 @@ use App\Repository\UserRepository\EloUserRepository;
 use App\Repository\UserRepository\UserRepositoryInterface;
 use Illuminate\Support\ServiceProvider;
 
-class UserRepositoryServeisProvider extends ServiceProvider
+class UserRepositoryServiceProvider extends ServiceProvider
 {
     /**
      * Register services.

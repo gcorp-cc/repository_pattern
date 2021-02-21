@@ -175,7 +175,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         /**Add Repository Service Provider**/
-        App\Providers\UserRepositoryServeisProvider::class,
+        App\Providers\UserRepositoryServiceProvider::class,
 
     ],
 
