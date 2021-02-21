@@ -19,4 +19,7 @@ class UserController extends Controller
         $users = $this->userRepository->all();
         return $users;
     }
+    public function show($id){
+        return $this->userRepository->show($id);
+    }
 }
