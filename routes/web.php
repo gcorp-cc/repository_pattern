@@ -13,6 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return \App\Models\User::all();
-});
+Route::get('/',[\App\Http\Controllers\UserController::class,'index'])->name('users');
